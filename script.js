@@ -81,3 +81,4 @@ console.log(`https/someurl.com/${category}/5/8`);
 
 const user ="Ivan";
 alert(`Привет, ${user}`);
+alert(`Привет, ${user}`);

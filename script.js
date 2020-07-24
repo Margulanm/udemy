@@ -76,9 +76,26 @@
 
 //  "use strict";
 
-const category='toys';
-console.log(`https/someurl.com/${category}/5/8`);
+// const category='toys';
+// console.log(`https/someurl.com/${category}/5/8`);
 
-const user ="Ivan";
-alert(`Привет, ${user}`);
-alert(`Привет, ${user}`);
+// const user ="Ivan";
+// alert(`Привет, ${user}`);
+// alert(`Привет, ${user}`);
+
+//Second day udemy 
+ const numberOfFilms=+prompt('Сколько фильмов вы уже посмотрели?','');
+
+ const personalMovieDB={
+    count:numberOfFilms,
+    movies:{},
+    actors:{},
+    genres:[],
+    privat:false
+ };
+
+ const film=prompt('last movie you have seen:','');
+ const rate=prompt('Your rate','');
+ personalMovieDB.movies[film]=rate;
+ 
+ console.log(personalMovieDB);
